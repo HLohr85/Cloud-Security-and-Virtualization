@@ -1,7 +1,7 @@
 # ELK-Stack-Project
 
-Domain: Network Security
-Question 1:  Faulty Firewall
+- Domain: Network Security
+- Question 1:  Faulty Firewall
 Suppose you have a firewall that's supposed to block SSH connections, but instead lets them through. How would you debug it?
 Make sure each section of your response answers the questions laid out below.
 ​
