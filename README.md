@@ -7,10 +7,10 @@ Make sure each section of your response answers the questions laid out below.
 ​
 
 
-Restate the Problem
+## Restate the Problem
 
 
-Provide a Concrete Example Scenario
+## Provide a Concrete Example Scenario
 
 In Project 1, did you allow SSH traffic to all of the VMs on your network?
 Which VMs did accept SSH connections?
@@ -18,7 +18,7 @@ What happens if you try to connect to a VM that does not accept SSH connections?
 
 
 
-Explain the Solution Requirements
+## Explain the Solution Requirements
 
 If one of your Project 1 VMs accepted SSH connections, what would you assume the source of the error is?
 Which general configurations would you double-check?
