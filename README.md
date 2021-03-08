@@ -46,8 +46,8 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 
 Machines within the network can only be accessed by the Jump Box or Host desktop.
 - _Jump Box_
- ...Public IP 13.64.98.240
- ...Private IP 10.0.0.4
+  - Public IP 13.64.98.240
+  - Private IP 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 
