@@ -4,9 +4,9 @@ The files in this repository were used to configure the network depicted below.
 
 ![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram.PNG)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Ansible playbook file](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
+  - [Ansible file](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
 
 This document contains the following details:
 - Description of the Topology
@@ -33,10 +33,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box | Gateway  | 10.0.0.4   | Linux            |
+| Web1     | Webserver| 10.0.0.5   | Linux            |
+| Web2     | Webserver| 10.0.0.6   | Linux            |
+| ELK      | Webserver| 10.1.0.4   | Linux            |
 
 ### Access Policies
 
