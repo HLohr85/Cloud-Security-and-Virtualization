@@ -52,18 +52,18 @@ Machines within the network can only be accessed by the Jump Box or Host desktop
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Port name & Type  | Allowed IP Addresses |
+| Name     | Publicly Accessible | Port name - Number| Allowed IP Addresses |
 |----------|---------------------|-------------------|----------------------|
-| Jump Box | Yes                 | SSH port 22       | 72.217.73.72         |
-| Load Bal | Yes                 | HTTP port 80      |                      |
-| Web 1    | No                  |                   |                      |
-| Web 2    | No                  |                   |                      |
+| Jump Box | Yes                 | SSH Port 22       | 72.217.73.72         |
+| Load Bal | Yes                 | HTTP Port 80      | 72.217.73.72         |
+| Web 1    | No                  | SSH Port 22       | 10.0.0.4             |
+| Web 2    | No                  | SSH Port 22       | 10.0.0.4             |
 | ELK      | Yes                 | TCP port 5601     | 72.217.73.72         |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
--Using Ansible allows the server to automate the system, and reduces configuration errors.
+-Ansible allows automatic Continous Integration/Continous Deployment (CI/CD) to the server when there is a change, and reduces configuration errors.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
