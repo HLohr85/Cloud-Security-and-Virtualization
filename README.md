@@ -54,16 +54,16 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes / SSH port22    | 10.0.0.1 10.0.0.2    |
-| Load Balancer | Yes / HTTP port80    | 10.0.0.1 10.0.0.2    |
+| Jump Box | Yes - SSH port22    | 10.0.0.1 10.0.0.2    |
+| Load Balancer | Yes - HTTP port80    | 10.0.0.1 10.0.0.2    |
 | Web1     | No                  |                      |
 | Web2     | No                  |                      |
-| ELK      | Yes                 | 10.1.0.4             |
+| ELK      | Yes - Kibana port 5601    | 10.1.0.4             |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
--An advantage of using Ansible is that it allows the server to be automatically update and reduces configuration errors.
+-Using Ansible allows the server to automate the system, and reduces configuration errors.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
