@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram.PNG)
+![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram%20with%20ELK%20VM.PNG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -34,8 +34,8 @@ The configuration details of each machine may be found below.
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
-| Web1     | Webserver| 10.0.0.5   | Linux            |
-| Web2     | Webserver| 10.0.0.6   | Linux            |
+| Web 1    | Webserver| 10.0.0.5   | Linux            |
+| Web 2    | Webserver| 10.0.0.6   | Linux            |
 | ELK      | ELK Stack| 10.1.0.4   | Linux            |
 
 ### Access Policies
@@ -52,12 +52,13 @@ Machines within the network can only be accessed by the Jump Box or Host desktop
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes via SSH port22  | 72.217.73.72         |
-| Web1     | No                  |                      |
-| Web2     | No                  |                      |
-| ELK      | Yes - Kibana port 5601    | 10.1.0.4             |
+| Name     | Publicly Accessible | Port name & Type  | Allowed IP Addresses |
+|----------|---------------------|-------------------|----------------------|
+| Jump Box | Yes                 | SSH port 22       | 72.217.73.72         |
+| Load Bal | Yes                 | HTTP port 80      |                      |
+| Web 1    | No                  |                   |                      |
+| Web 2    | No                  |                   |                      |
+| ELK      | Yes                 | TCP port 5601     | 72.217.73.72         |
 
 ### Elk Configuration
 
