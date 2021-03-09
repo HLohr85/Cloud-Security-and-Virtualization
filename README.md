@@ -22,14 +22,12 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
-- _The load balancer has a front-end configuration that allows to route traffic to the virtual machines in the backend pool using a different port than the one clients use to communicate with the load balancer.
--  protects the two webserves (Web1 & Web2) by distributing online traffic (TCP), if one webserver goes down then traffic is redirected to the second available webserver  You can choose to route traffic to the virtual machines in the backend pool using a different port than the one clients use to communicate with the load balancer.
-- distributed among the webservers, and thus providing protection a has an important role in thTODO: What aspect of security do load balancers protect? 
-  - What is the advantage of a jump box?_
+- The load balancer protects online security, through the front-end configuration, the load balancer can re-direct traffic to the virtual machines in the backend pool using a different port than the one clients use to communicate with the load balancer. The network can have multiple machines and the tasks are distributed among the virtual machines provding higher availability.
+  - Using a jump box adds a layer of security to any network administrator. This is, in most cases to access a jump box one must use an SSH key efore launching a task to any attached virtual machines in the network.  
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system resources.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- Filebeat serves to monitors log files and changes configured by the administrator, and notify of those changes. 
+- Metricbeat monitors the servers collecting information from the monitored system.  
 
 The configuration details of each machine may be found below.
 
@@ -65,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+-An advantage of using Ansible is that it allows the server to be automatically update and reduces configuration errors.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
