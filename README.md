@@ -54,8 +54,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes - SSH port22    | 10.0.0.1 10.0.0.2    |
-| Load Balancer | Yes - HTTP port80    | 10.0.0.1 10.0.0.2    |
+| Jump Box | Yes via SSH port22  | 72.217.73.72         |
 | Web1     | No                  |                      |
 | Web2     | No                  |                      |
 | ELK      | Yes - Kibana port 5601    | 10.1.0.4             |
