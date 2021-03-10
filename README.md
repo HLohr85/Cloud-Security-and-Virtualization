@@ -63,13 +63,13 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
--Ansible allows for automatic Continous Integration/Continous Deployment (CI/CD) to the server when there is a change, reducing configuration errors.
+-Ansible allows for Continous Integration/Continous Deployment (CI/CD) and automatically updated a machine in the network when there is a change, thus reducing configuration errors.
 
 The playbook implements the following tasks:
-- To install Docker you have to connect via SSH port 22 from your host computer to the Jump Box and run *sudo apt install docker.io*
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install Docker in the remote computer by connecting via SSH and run **sudo apt install docker.io**
+- Install Python3-pip, this will allow us to manage software packages easily.
+- Increase memory usage, the elk.yml will allow us to map the system to use more memory.
+- Download and launch a Docker ELK container.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -77,7 +77,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- Web 1 - IP address 10.0.0.5
+- Web 2 - IP address 10.0.0.6
+- ELM VM - IP address 10.1.0.4
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
