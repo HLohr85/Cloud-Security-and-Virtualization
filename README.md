@@ -55,7 +55,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Port Accessible   | Allowed IP Addresses |
 |----------|---------------------|-------------------|----------------------|
 | Jump Box | Yes                 | SSH Port 22       | 72.217.73.72         |
-| L Blcr   | Yes                 | HTTP Port 80      | 72.217.73.72         |
+| Load Balancer   | Yes                 | HTTP Port 80      | 72.217.73.72         |
 | Web 1    | No                  | SSH Port 22       | 10.0.0.4             |
 | Web 2    | No                  | SSH Port 22       | 10.0.0.4             |
 | ELK      | Yes                 | TCP port 5601     | 72.217.73.72         |
@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+[sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/Docker%20start.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
