@@ -66,14 +66,14 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 -Ansible allows for Continous Integration/Continous Deployment (CI/CD) and automatically updated a machine in the network when there is a change, thus reducing configuration errors.
 
 The playbook implements the following tasks:
-- Install Docker in the remote computer by connecting via SSH and run **sudo apt install docker.io**
-- Install Python3-pip, this will allow us to manage software packages easily.
-- Increase memory usage, the elk.yml will allow us to map the system to use more memory.
-- Download and launch a Docker ELK container.
+- Install Docker in the remote computer, docker packages applications inside a container.
+- Install pip, Python3-pip allow the server to manage software packages easily.
+- Increase memory usage, to allow us map the system and use more memory.
+- Download and launch the Docker ELK container.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/Docker%20start.PNG)
+![sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/Docker%20start.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
