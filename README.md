@@ -100,6 +100,6 @@ _Answer the following questions to fill in the blanks:_
 - Where do you copy it? Go to: ~/etc/ansible# nano elk.yml_
 - Which file do you update to make Ansible run the playbook on a specific machine? Update the nano hosts file to include the server name (ELK), and IP address (ELK).
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- Which URL do you navigate to in order to check that the ELK server is running? Go to (http://40.121.163.204:5601/app/kibana)
+- Which URL do you navigate to in order to check that the ELK server is running? [Go to Kibana and type http://ELK ip address/app/kibana] ![See the screenshot below] 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
