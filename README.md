@@ -102,6 +102,6 @@ _Answer the following questions to fill in the blanks:_
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - Which URL do you navigate to in order to check that the ELK server is running? Go to Kibana and enter the following: http://<ELK.VM.External.IP>:5601/app/kibana. If the site loads, you have successfully configured the ELK server. 
 - Click the link below to view a sample of the site
-- * https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
+* https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
