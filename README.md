@@ -96,12 +96,12 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
 _Answer the following questions to fill in the blanks:_
-- Which file is the playbook? elk.yml 
+- Which file is the playbook? The file is: elk.yml 
 - Where do you copy it? Go to: ~/etc/ansible# nano elk.yml_
 - Which file do you update to make Ansible run the playbook on a specific machine? Update the nano hosts file to include the server name (ELK), and IP address (ELK).
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- Which URL do you navigate to in order to check that the ELK server is running? Go to Kibana and enter the following: http://<ELK.VM.External.IP>:5601/app/kibana. If the site loads, you have successfully configured the ELK server. 
-- Click the link below to view a sample of the site
-* https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
+- Which URL do you navigate to in order to check that the ELK server is running? Go to Kibana and enter the following: http://<ELK.VM.External.IP>:5601/app/kibana. 
+* If the site loads, then you have successfully configured the ELK server.
+- Click the link to verify the the working site: https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
