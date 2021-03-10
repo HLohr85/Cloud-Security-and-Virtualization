@@ -102,7 +102,7 @@ _Answer the following questions to fill in the blanks:_
 
 The following screenshot displays the result of updating the hosts file in nano 'ELK server' after successfully configuring the ELK file.
 
-![ELK - sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20docker%20ps.PNG)
+![ELK - sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20host%20(2).PNG)
 
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 - Which URL do you navigate to in order to check that the ELK server is running? http://<ELK.VM.External.IP>:5601/app/kibana
