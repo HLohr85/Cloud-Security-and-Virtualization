@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/Docker%20start.PNG)
+![ELK - sudo docker ps -a](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20docker%20ps.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -95,9 +95,11 @@ SSH into the control node and follow the steps below:
 - Update the _____ file to include...
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+_Answer the following questions to fill in the blanks:_
+- _Which file is the playbook? elk.yml 
+- Where do you copy it? Go to: ~/etc/ansible# nano elk.yml_
+- _Which file do you update to make Ansible run the playbook on a specific machine? Update the nano hosts file, include the server name (ELK), and IP address (ELK).
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - _Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
