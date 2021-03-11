@@ -105,9 +105,12 @@ The following screenshot checks that the installation worked as expected.
 https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20host%20(2).PNG
 
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on? The ELK server 
-- Which URL do you navigate to in order to check that the ELK server is running? http://<ELK.VM.External.IP>:5601/app/kibana
+- Which URL do you navigate to in order to check that the ELK server is running? 
+  - http://<ELK.VM.External.IP>:5601/app/kibana
 
-- If the site loads, then you have successfully configured the ELK server. The link below verifies that the site is working: https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
+- If the site loads, then you have successfully configured the ELK server.
+  - The link below verifies that the site is working: 
+  - https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
 
 _As a **Bonus**, below are some specific commands the user will need to: 
 - Run the playbook: ansible-playbook filename.yml
