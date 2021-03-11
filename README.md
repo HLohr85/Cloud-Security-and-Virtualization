@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [Ansible file](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
+  - [Ansible template configuration files](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
 
 This document contains the following details:
 - Description of the Topology
@@ -123,6 +123,6 @@ https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20ho
 - This will download and install the playbook according to the instrutions given
 - Before you run the playbook, you can run: ansible-playbook filename.yml --syntax-check
 
-  - The file below has samples of some of the playbooks that we ran (click the link below to view the files)
-  - [Ansible template configuration files](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
-  - [ELK files (screenshots)](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/ELK) 
+  - The file below has samples of some of the playbooks that we created and ran in our virtual machines (click the link below to view the files):
+   - [Ansible template configuration files](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
+   - [ELK files (screenshots)](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/ELK) 
