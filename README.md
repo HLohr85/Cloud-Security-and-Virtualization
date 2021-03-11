@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
--Ansible allows for Continous Integration/Continous Deployment (CI/CD) and automatically updated a machine in the network when there is a change, thus reducing configuration errors.
+- Ansible allows for Continous Integration/Continous Deployment (CI/CD) and automatically updates a machine in the network when there is a change, thus reducing configuration errors.
 
 The playbook implements the following tasks:
 - Install Docker in the remote computer, docker packages applications inside a container.
