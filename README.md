@@ -113,7 +113,7 @@ https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20ho
 - If the site loads, then you have successfully configured the ELK server (click the link below) 
   - https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20-%20Kibana.PNG
 
-_ As a **Bonus**, below are some specific commands the user will need to: 
+  As a **Bonus**, below are some specific commands the user will need to download and install an Ansible tool: 
 - Open a terminal and SSH into your jump box run: (ssh username@Public-IP-address-from-JumpBox)
 - Start the Ansible container by running: sudo docker ps -a (to get the container name)
 - To get root access run: sudo docker start container_ID
@@ -122,6 +122,7 @@ _ As a **Bonus**, below are some specific commands the user will need to:
 - Run the playbook: ansible-playbook filename.yml
 - This will download and install the playbook according to the instrutions given
 - Before you run the playbook, you can run: ansible-playbook filename.yml --syntax-check
+
   - The file below has samples of some of the playbooks that we ran (click the link below to view the files)
-  - [Ansible file](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
-  - [ELK file](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/ELK) 
+  - [Ansible template configuration files](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
+  - [ELK files (screenshots)](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/ELK) 
