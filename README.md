@@ -103,8 +103,8 @@ _Answer the following questions to fill in the blanks:_
 - Where do you copy it? Copy the file to: /etc/ansible/install-elk.yml
 - Which file do you update to make Ansible run the playbook on a specific machine? Go to nano /etc/ansible/hosts, add a group called (ELK), and specify the ELK IP address.
 
-The following screenshot checks that the installation worked as expected.
-  -[ELK nano host (2)](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20host%20(2).PNG)
+- The following screenshot checks that the installation worked as expected.
+  - [ELK nano host (2)](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/ELK/ELK%20nano%20host%20(2).PNG)
 
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on? The ELK server 
 - Which URL do you navigate to in order to check that the ELK server is running? 
