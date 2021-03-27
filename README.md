@@ -58,7 +58,7 @@ A summary of the access policies in place can be found in the table below.
 | Load Balancer   | Yes                 | HTTP Port 80      | 72.217.73.72         |
 | Web 1    | No                  | SSH Port 22       | 10.0.0.4             |
 | Web 2    | No                  | SSH Port 22       | 10.0.0.4             |
-| ELK      | Yes                 | SSH Port 22, TCP port 5601     | 72.217.73.72         |
+| ELK      | Yes                 | SSH Port 22, TCP port 5601, HTTP Port 80     | 72.217.73.72         |
 
 ### Elk Configuration
 
