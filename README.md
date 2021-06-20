@@ -4,13 +4,16 @@
 
 The following project was created and deployed using Microsoft Azure Cloud Services. For this project we worked with different cloud computing service models such as: cloud networking, firewalls, and virtual computing. 
 
-##The project covers four different aspects of cloud computing and services:
+The project covers four different aspects of cloud computing and services:
 - **Introduction To Cloud Computing**
   - Distinguish and identify between cloud services
   - Set up a virtual private cloud network
   - Protect the cloud network with a firewall
   - Deploy a virtual computer to the cloud network
 - **Cloud Systems Management**
+  - Access the entire VNet from a jump box
+  - Install and run containers using Docker
+  - Set up Ansible connections to VMs inside the VNet
 - **Load Balancing and Redundancy**
 - **Testing Redundant Systems**
 We built a basic cloud network using VMs and containers, set up a virtual private cloud network, protected the cloud network with a firewall, and deployed a virtual computer to the cloud network. 
