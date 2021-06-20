@@ -2,7 +2,8 @@
 
 ### Overview:
 
-The following project was created and deployed using Microsoft Azure cloud services, and working with different cloud computing service models, such as: cloud networking, firewalls, and virtual computing. The project covers four different aspects of cloud computing and services.
+The following project was created and deployed using Microsoft Azure Cloud Services. For this project we worked with different cloud computing service models such as: cloud networking, firewalls, and virtual computing. 
+##The project covers four different aspects of cloud computing and services.
 - **Introduction To Cloud Computing**
 - **Cloud Systems Management**
 - **Load Balancing and Redundancy**
