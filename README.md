@@ -1,6 +1,8 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+#Overview:
+The following project was created and deployed using Microsoft Azure cloud services, and working with different cloud computing service models, such as: cloud networking, firewalls, and virtual computing.
+The files in this repository were used to configure the network depicted below. 
 
 ![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram%20with%20ELK%20VM.PNG)
 
