@@ -15,14 +15,17 @@ The project covers four different aspects of cloud computing and services:
   - Install and run containers using Docker
   - Set up Ansible connections to VMs inside the VNet
 - **Load Balancing and Redundancy**
+  - Write Ansible playbooks to configure VMs
+  - Create a load balancer on the Azure platform
+  - Create firewall and load balancer rules to allow traffic to the correct VMs
 - **Testing Redundant Systems**
-We built a basic cloud network using VMs and containers, set up a virtual private cloud network, protected the cloud network with a firewall, and deployed a virtual computer to the cloud network. 
-
+  - Verify redundancy by turning off one virtual machines used in the infrastructure
+  
 The files in this repository were used to configure the network depicted below. 
 
 ![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram%20with%20ELK%20VM.PNG)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested, and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
   - [Ansible template configuration files](https://github.com/HLohr85/Cybersecurity_Project_1/tree/main/Ansible)
 
@@ -37,9 +40,9 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA (D*mn Vulnerable Web Application).
 
-Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
+The load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 - The load balancer protects online security, through the front-end configuration, the load balancer can re-direct traffic to the virtual machines in the backend pool using a different port than the one clients use to communicate with the load balancer. The network can have multiple machines and the tasks are distributed among the virtual machines provding higher availability.
   - Using a jump box adds a layer of security to any network administrator. This is, in most cases to access a jump box one must use an SSH key efore launching a task to any attached virtual machines in the network.  
 
@@ -61,7 +64,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _72.217.73.72_
+- _23.237.26.67_
 
 Machines within the network can only be accessed by the Jump Box or Host desktop.
 - _Jump Box_
@@ -72,15 +75,15 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Port Accessible   | Allowed IP Addresses |
 |----------|---------------------|-------------------|----------------------|
-| Jump Box | Yes                 | SSH Port 22       | 72.217.73.72         |
-| Load Balancer   | Yes                 | HTTP Port 80      | 72.217.73.72         |
+| Jump Box | Yes                 | SSH Port 22       | 23.237.26.67         |
+| Load Balancer   | Yes                 | HTTP Port 80      | 23.237.26.67         |
 | Web 1    | No                  | SSH Port 22       | 10.0.0.4             |
 | Web 2    | No                  | SSH Port 22       | 10.0.0.4             |
-| ELK      | Yes                 | SSH Port 22, TCP port 5601, HTTP Port 80     | 72.217.73.72         |
+| ELK      | Yes                 | SSH Port 22, TCP port 5601, HTTP Port 80     | 23.237.26.67         |
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+We used Ansible to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - Ansible allows for Continous Integration/Continous Deployment (CI/CD) and automatically updates a machine in the network when there is a change, thus reducing configuration errors.
 
 The playbook implements the following tasks:
