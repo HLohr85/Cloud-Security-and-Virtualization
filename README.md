@@ -1,7 +1,14 @@
 ## Automated ELK Stack Deployment
 
-#Overview:
-The following project was created and deployed using Microsoft Azure cloud services, and working with different cloud computing service models, such as: cloud networking, firewalls, and virtual computing.
+### Overview:
+
+The following project was created and deployed using Microsoft Azure cloud services, and working with different cloud computing service models, such as: cloud networking, firewalls, and virtual computing. The project covers four different aspects of cloud computing and services.
+- **Introduction To Cloud Computing**
+- **Cloud Systems Management**
+- **Load Balancing and Redundancy**
+- **Testing Redundant Systems**
+We built a basic cloud network using VMs and containers, set up a virtual private cloud network, protected the cloud network with a firewall, and deployed a virtual computer to the cloud network. 
+
 The files in this repository were used to configure the network depicted below. 
 
 ![Azure Cloud diagram](https://github.com/HLohr85/Cybersecurity_Project_1/blob/main/Diagrams/Azure%20Cloud%20diagram%20with%20ELK%20VM.PNG)
